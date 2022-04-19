@@ -3,6 +3,8 @@
 set -o errexit -o pipefail
 
 export LD_LIBRARY_PATH=$PREFIX/lib
+export LIBRARY_PATH=$PREFIX/lib
+find $PREFIX -name libmysqlclient.so.18
 # If it has Build.PL use that, otherwise use Makefile.PL
 if [[ -f Build.PL ]]; then
     perl Build.PL
