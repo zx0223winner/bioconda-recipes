@@ -1,6 +1,6 @@
 {% set name = "microhapulator" %}
-{% set version = "0.8.2" %}
-{% set sha256 = "8b4921cfa278d6879c2173509e9dfd45f5df1fa14b6951ed1ff55861d6fefda7" %}
+{% set version = "0.8.4" %}
+{% set sha256 = "215ddd41c8506a20c076bcf765e49646fd9d759a6f511495cc697e7fc2ad51cb" %}
 
 package:
   name: {{ name }}
